@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.avatar:hover{
+    box-shadow: 2px 2px 6px black,-2px -2px 6px black;
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #001d3d;
+    color: #ffb703;
+    border-radius: 8px;
+    box-shadow: 8px 8px 12px #6c757d;
+    border-bottom: 8px solid lightskyblue;
+}
+
+.hover-effect:hover{
+    cursor: pointer;
+    color: white;
+}
